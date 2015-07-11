@@ -1,0 +1,182 @@
+<resources>
+    <string name="vnc">"Գաղտնաբառը սխալ"</string>
+    <string name="rdp">"RDP"</string>
+    <!-- Button labels -->
+    <string name="yes">"Այո"</string>
+    <string name="no">"Ոչ"</string>
+    <string name="cancel">"Վերացնել"</string>
+    <string name="cont">"Շարունակել"</string>
+    <string name="login">"Լոգին"</string>
+    <string name="logout">"Ելք"</string>
+    <!-- Home menu items -->
+    <string name="menu_exit">"Ելք"</string>
+    <string name="menu_about">"Մոտ"</string>
+    <string name="menu_help">"Օգնություն"</string>
+    <string name="menu_new_bookmark">"New Connection"</string>
+    <string name="menu_app_settings">"Կառավարում"</string>
+    <!-- Bookmark menu items -->
+    <string name="menu_title_bookmark">"Կապ"</string>
+    <string name="menu_connect">"Միացնել"</string>
+    <string name="menu_edit">"Խմբագրել"</string>
+    <string name="menu_delete">"Ջնջել"</string>
+    <!-- Session menu items -->
+    <string name="menu_sys_keyboard">"Ստեղնաշար"</string>
+    <string name="menu_ext_keyboard">"Ֆունկցիան Keys"</string>
+    <string name="menu_touch_pointer">"Touch ցուցիչ"</string>
+    <string name="menu_home">"Տուն"</string>
+    <string name="menu_disconnect">"անջատել"</string>
+    <!-- List section headers -->
+    <string name="section_bookmarks">"Ձեռնարկ կապեր"</string>
+    <string name="section_active_sessions">"Ակտիվ Sessions"</string>
+    <!-- Search strings -->
+    <string name="search_hint">"Միացեք Համակարգիչ"</string>
+    <!-- List placeholder labels -->
+    <string name="list_placeholder_login">"Լոգին"</string>
+    <string name="list_placeholder_no_servers">"Ոչ սերվերներ"</string>
+    <string name="list_placeholder_connecting">"Միանում է ..."</string>
+    <string name="list_placeholder_disconnecting">"Disconnecting ..."</string>
+    <string name="list_placeholder_connection_error">"Միացման Պարտվածները"</string>
+    <string name="list_placeholder_wrong_password">"Wrong Գաղտնաբառ"</string>
+    <string name="list_placeholder_invalid_username">"Անվավեր Մականուն"</string>
+    <string name="list_placeholder_add_bookmark">"Ավելացնել կապ"</string>
+    <!-- Bookmark settings strings -->
+    <string name="settings_cat_host">"Ամբոխ"</string>
+    <string name="settings_label">"Պիտակ"</string>
+    <string name="settings_hostname">"Ամբոխ"</string>
+    <string name="settings_port">"Նավահանգիստ"</string>
+    <string name="settings_cat_credentials">"Լիազորագիր"</string>
+    <string name="settings_credentials">"Լիազորագիր"</string>
+    <string name="settings_username">"Մականուն"</string>
+    <string name="settings_password">"Գաղտնաբառ"</string>
+    <string name="settings_domain">"Դոմեյն"</string>
+    <string name="settings_cat_settings">"Կառավարում"</string>
+    <string name="settings_screen">"Էկրան"</string>
+    <string name="settings_cat_screen">"Էկրանի Կառավարում"</string>
+    <string name="settings_colors">"Գունավոր շորեր"</string>
+    <string-array name="colors_array">
+        <item>"Բարձր գույնը (16 բիտ)"</item>
+        <item>"True Color (24 բիտ)"</item>
+        <item>"Ամենաբարձր որակի (32 բիտ)"</item>
+    </string-array>
+    <string name="settings_resolution">"Որոշում"</string>
+    <string name="resolution_automatic">"Ավտոմատ"</string>
+    <string name="resolution_custom">"Սովորություն"</string>
+    <string-array name="resolutions_array">
+        <item>"Ավտոմատ"</item>
+        <item>"Սովորություն"</item>
+        <item>"640x480"</item>
+        <item>"720x480"</item>
+        <item>"800x600"</item>
+        <item>"1024x768"</item>
+        <item>"1280x1024"</item>
+        <item>"1440x900"</item>
+        <item>"1920x1080"</item>
+        <item>"1920x1200"</item>
+    </string-array>
+    <string name="settings_width">"Լայնություն"</string>
+    <string name="settings_height">"Բարձրություն"</string>
+    <string name="settings_performance">"Performance"</string>
+    <string name="settings_cat_performance">"Արդյունավետության Կառավարում"</string>
+    <string name="settings_perf_remotefx">"RemoteFX"</string>
+    <string name="settings_perf_wallpaper">"Desktop Background"</string>
+    <string name="settings_perf_font_smoothing">"Տառատեսակի հարթելու"</string>
+    <string name="settings_perf_desktop_composition">"Desktop կազմը"</string>
+    <string name="settings_perf_full_window_drag">"Լուսամուտի բովանդակությունը իսկ քարշ"</string>
+    <string name="settings_perf_menu_animation">"Մենյու Շարժապատկերներ"</string>
+    <string name="settings_perf_theming">"Visual Styles"</string>
+    <string name="settings_advanced">"Առաջադեմ"</string>
+    <string name="settings_cat_advanced">"Ընդլայնված Կառավարում"</string>
+    <string name="settings_enable_3g_settings">"3G Կառավարում"</string>
+    <string name="settings_screen_3g">"3G Screen"</string>
+    <string name="settings_performance_3g">"3G Performance"</string>
+    <string name="settings_cat_gateway">"Բակամուտք"</string>
+    <string name="settings_enable_gateway_settings">"Միացնել Gateway"</string>
+    <string name="settings_gateway_settings">"Gateway Կառավարում"</string>
+    <string name="settings_redirect_sdcard">"Share SDCard"</string>
+    <string name="settings_redirect_ClipBoard">"Share clipboard"</string>
+    <string name="settings_redirect_Audio">"Աուդիո"</string>
+    <string name="settings_redirect_Audio_Android">"Խաղալ է Android"</string>
+    <string name="settings_redirect_Audio_Computer">"Խաղալ համակարգչով"</string>
+    <string name="settings_security">"Անվտանգություն"</string>
+    <string-array name="security_array">
+        <item>"Ավտոմատ"</item>
+        <item>"RDP"</item>
+        <item>"TLS"</item>
+        <item>"NLA"</item>
+    </string-array>
+
+    <string name="settings_remote_program">"Remote ծրագիր"</string>
+    <string name="settings_work_dir">"Աշխատանքային Directory"</string>
+    <string name="settings_console_mode">"Վահանակով Mode"</string>
+    <!-- App settings strings -->
+    <string name="settings_password_present">"*******"</string>
+    <string name="settings_password_empty">"չէ"</string>
+    <string name="settings_cat_ui">"User Interface"</string>
+    <string name="settings_ui_hide_status_bar">"Թաքցնել Status bar"</string>
+    <string name="settings_ui_hide_zoom_controls">"Թաքցնել Մեծացնել Վերահսկում"</string>
+    <string name="settings_ui_swap_mouse_buttons">"Փոխանակման Mouse Կոճակներ"</string>
+    <string name="settings_ui_invert_scrolling">"Շրջել գույն"</string>
+    <string name="settings_ui_auto_scroll_touchpointer">"Touch ցուցիչ Auto Scroll"</string>
+    <string name="settings_ui_ask_on_exit">"Ցույց երկխոսությունը ելքի"</string>
+    <string name="settings_cat_power">"Power Saving"</string>
+    <string name="settings_power_disconnect_timeout">"Փակել պարապ Կապեր"</string>
+    <string name="settings_cat_security">"Անվտանգություն"</string>
+    <string name="settings_security_accept_certificates">"Ընդունել է բոլոր վկայական"</string>
+    <string name="settings_security_clear_certificate_cache">"Մաքրել Cache վկայական"</string>
+    <string name="settings_description_after_minutes">"Հետո %1$d րոպե"</string>
+    <string name="settings_description_disabled">"Անաշխատունակ"</string>
+    <!-- Activity titles -->
+    <string name="title_bookmark_settings">"Միացման Կառավարում"</string>
+    <string name="title_application_settings">"Կառավարում"</string>
+    <string name="title_home">"Remote Desktop"</string>
+    <string name="title_create_shortcut">"RDP կապեր"</string>
+    <string name="title_help">"Օգնություն"</string>
+    <string name="title_about">"Մոտ"</string>
+    <!-- Error message strings -->
+    <string name="error_bookmark_incomplete_title">"Ընդհատել առանց խնայելու."</string>
+    <string name="error_bookmark_incomplete">"Սեղմեք «Ընդհատել» է մտածել \ nPress \"Շարունակել\" նշել պահանջվող դաշտերը."</string>
+    <string name="error_connection_failure">"Չհաջողվեց ստեղծել կապ սերվերի."</string>
+    <!-- Info message strings -->
+    <string name="info_capabilities_changed">"Էկրանի պարամետրերը փոխվել, քանի որ սերվերը չի ապահովում պարամետրերը պետք է նշված."</string>
+    <string name="info_reset_success">"Ջնջված վկայականը քէշը."</string>
+    <string name="info_reset_failed">"Չհաջողվեց ջնջել վկայական cache."</string>
+    <!-- Dialog strings -->
+    <string name="dlg_title_verify_certificate">"Ստուգել վկայական"</string>
+    <string name="dlg_msg_verify_certificate">"Ինքնության հեռավոր համակարգչի չի կարող հաստատվել: Ուզում եք միանալ այնուամենայնիվ."</string>
+    <string name="dlg_title_credentials">"Խնդրում ենք մուտքագրել ձեր հավատարմագրերը"</string>
+    <string name="dlg_title_create_shortcut">"Ստեղծել կարճուղի"</string>
+    <string name="dlg_msg_create_shortcut">"Shortcut անունը:"</string>
+    <string name="dlg_msg_connecting">"Միանում է ..."</string>
+    <string name="dlg_msg_logging_in">"Logging in ..."</string>
+    <string name="dlg_title_about">"Օգտվողի Rdp Remote Desktop"</string>
+    <string name="dlg_msg_about">"Version: %1$s"</string>
+    <string name="dlg_title_create_bookmark_after_qc">"Պահել Միացման կայանքները."</string>
+    <string name="dlg_msg_create_bookmark_after_qc">"Ձեր կապն պարամետրերը չեն պահպանվել. Ուզում եք փրկել նրանց."</string>
+    <string name="dlg_title_save_bookmark">"Պահել կապ."</string>
+    <string name="dlg_save_bookmark">"Ցանկանում եք պահել որեւէ փոփոխություն եք կատարել կապը կարգավորումներում."</string>
+    <string name="dlg_dont_show_again">"Այլեւս չհարցնել"</string>
+    <string name="dlg_title_exit">"Ելք կիրառական ծրագիր?"</string>
+    <string name="dlg_msg_exit">"Վստահ եք, որ ցանկանում եք դուրս գալու դիմումը."</string>
+    <string name="dlg_title_clear_cert_cache">"Ջնջել վկայականներ."</string>
+    <string name="dlg_msg_clear_cert_cache">"Վստահ եք, որ ցանկանում եք ջնջել Ձեր բոլոր Պահված վկայականներ."</string>
+    <string name="Trial_expires_in">"Trial սպառվում է"</string>
+    <string name="days">"օր"</string>
+    <string name="hours">"ժամ"</string>
+    <string name="minutes">"րոպե"</string>
+    <string name="seconds">"վայրկյան"</string>
+    <string name="Trial_expired">"Trial ժամկետանց"</string>
+    <string name="You_have_already_purchased_license">"Դուք արդեն գնել լիցենզիա"</string>
+    <string name="Your_iPlay_Audio_license_has_been_retrived">"Ձեր Rdp Remote Desktop լիցենզիա է առաքվել. Խնդրում ենք վերագործարկել Rdp Remote Desktop."</string>
+    <string name="Error_purchasing_license">"Սխալ գնման իրավունք"</string>
+    <string name="Please_try_again">"Խնդրում ենք կրկին փորձել:"</string>
+    <string name="Congratulations">"Շնորհավոր!"</string>
+    <string name="License_purchased_sucessfully">"Լիցենզիա գնել հաջողությամբ. Խնդրում ենք վերսկսել Rdp Remote Desktop."</string>
+    <string name="iPlay_Audio_Trial_Expired">"Rdp Remote Desktop Trial ժամկետանց."</string>
+    <string name="Please_purchase_iPlay_Audio_license_from_market">"Խնդրում ենք ձեռք Rdp Remote Desktop թույլտվություն շուկայում."</string>
+    <string name="ok">"Լավ"</string>
+    <string name="Get_from_Market">"Ստանալ Շուկայից"</string>
+    <string name="download_iPlay_Audio_License_from_Android_Market">"Խնդրում ենք բեռնել Rdp Remote Desktop թույլտվություն Android Market"</string>
+    <string name="General">"Ընդհանուր"</string>
+    <string name="pref_trialExp">"Trial ժամկետն անցած լինի. Գնել ամբողջական տարբերակը շուկայական"</string>
+    <string name="Download_Full_Version">"Download Full Version"</string>
+</resources>

@@ -1,0 +1,2 @@
+include ':iRdpCore'
+include ':iRdp'

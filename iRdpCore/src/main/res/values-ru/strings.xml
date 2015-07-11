@@ -1,0 +1,184 @@
+<resources>
+    <string name="vnc">"Vnc"</string>
+    <string name="rdp">"RDP:"</string>
+    <!-- Button labels -->
+    <string name="yes">"Да"</string>
+    <string name="no">"Нет"</string>
+    <string name="cancel">"Отмена"</string>
+    <string name="cont">"continue;"</string>
+    <string name="login">"Войти"</string>
+    <string name="logout">"Выйти"</string>
+    <!-- Home menu items -->
+    <string name="menu_exit">"Выход"</string>
+    <string name="menu_about">"О"</string>
+    <string name="menu_help">"\"Хочешь я тебе помогу?\""</string>
+    <string name="menu_new_bookmark">"Новое подключение"</string>
+    <string name="menu_app_settings">"Настройки"</string>
+    <!-- Bookmark menu items -->
+    <string name="menu_title_bookmark">"разъем)"</string>
+    <string name="menu_connect">"Подключено"</string>
+    <string name="menu_edit">"Редактировать"</string>
+    <string name="menu_delete">"Удалить"</string>
+    <!-- Session menu items -->
+    <string name="menu_sys_keyboard">"Клавиатура"</string>
+    <string name="menu_ext_keyboard">"Функциональные клавиши"</string>
+    <string name="menu_touch_pointer">"Сенсорный указатель"</string>
+    <string name="menu_home">"дома"</string>
+    <string name="menu_disconnect">"\"Отключить\";"</string>
+    <!-- List section headers -->
+    <string name="section_bookmarks">"Руководство подключений"</string>
+    <string name="section_active_sessions">"Активные сеансы"</string>
+    <!-- Search strings -->
+    <string name="search_hint">"Подключение к компьютеру"</string>
+    <!-- List placeholder labels -->
+    <string name="list_placeholder_login">"Войти"</string>
+    <string name="list_placeholder_no_servers">"Нет Сервера"</string>
+    <string name="list_placeholder_connecting">"Подключение ..."</string>
+    <string name="list_placeholder_disconnecting">"Отключение..."</string>
+    <string name="list_placeholder_connection_error">"Потеря связи"</string>
+    <string name="list_placeholder_wrong_password">"Пароль неверен"</string>
+    <string name="list_placeholder_invalid_username">"Неверное имя пользователя"</string>
+    <string name="list_placeholder_add_bookmark">"Добавить подключение"</string>
+    <!-- Bookmark settings strings -->
+    <string name="settings_cat_host">"Host"</string>
+    <string name="settings_label">"Название будильника"</string>
+    <string name="settings_hostname">"Host"</string>
+    <string name="settings_port">"Порт"</string>
+    <string name="settings_cat_credentials">"Данные для авторизации"</string>
+    <string name="settings_credentials">"Данные для авторизации"</string>
+    <string name="settings_username">"Имя пользователя (Логин)"</string>
+    <string name="settings_password">"Password "</string>
+    <string name="settings_domain">"Домен"</string>
+    <string name="settings_cat_settings">"Настройки"</string>
+    <string name="settings_screen">"Экран"</string>
+    <string name="settings_cat_screen">"Настройки экрана"</string>
+    <string name="settings_colors">"Цвета"</string>
+    <string-array name="colors_array">
+        <item>"High Color (16 бит)"</item>
+        <item>"True Color (24 бита)"</item>
+        <item>"Высокое качество (32 бит)"</item>
+    </string-array>
+    <string name="settings_resolution">"Разрешение"</string>
+    <string name="resolution_automatic">"Автоматическое"</string>
+    <string name="resolution_custom">"Custom 
+(клиент)"</string>
+    <string-array name="resolutions_array">
+        <item>"Автоматическое"</item>
+        <item>"Custom 
+(клиент)"</item>
+        <item>"640x480"</item>
+        <item>"720x480"</item>
+        <item>"800x600"</item>
+        <item>"1024x768"</item>
+        <item>"1280x1024"</item>
+        <item>"1440x900"</item>
+        <item>"1920x1080"</item>
+        <item>"1920x1200"</item>
+    </string-array>
+    <string name="settings_width">"Ширина"</string>
+    <string name="settings_height">"Высота"</string>
+    <string name="settings_performance">"высококачественные, "</string>
+    <string name="settings_cat_performance">"Настройки производительности"</string>
+    <string name="settings_perf_remotefx">"RemoteFX"</string>
+    <string name="settings_perf_wallpaper">"Для рабочего стола"</string>
+    <string name="settings_perf_font_smoothing">"Сглаживание шрифтов"</string>
+    <string name="settings_perf_desktop_composition">"Композиция рабочего стола"</string>
+    <string name="settings_perf_full_window_drag">"Содержимое окна при перетаскивании"</string>
+    <string name="settings_perf_menu_animation">"Анимация меню"</string>
+    <string name="settings_perf_theming">"Визуальные стили"</string>
+    <string name="settings_advanced">"Дополнительно"</string>
+    <string name="settings_cat_advanced">"Расширенные настройки"</string>
+    <string name="settings_enable_3g_settings">"Настройки 3G"</string>
+    <string name="settings_screen_3g">"3G экрана"</string>
+    <string name="settings_performance_3g">"Производительность 3G"</string>
+    <string name="settings_cat_gateway">"Шлюз"</string>
+    <string name="settings_enable_gateway_settings">"Включить шлюз"</string>
+    <string name="settings_gateway_settings">"Параметры шлюза"</string>
+    <string name="settings_redirect_sdcard">"Поделиться SDCard"</string>
+    <string name="settings_redirect_ClipBoard">"Поделиться ClipBoard"</string>
+    <string name="settings_redirect_Audio">"Поведение"</string>
+    <string name="settings_redirect_Audio_Android">"Играть на Android"</string>
+    <string name="settings_redirect_Audio_Computer">"Поиграю на компьютере"</string>
+    <string name="settings_security">"Безопасность"</string>
+    <string-array name="security_array">
+        <item>"Автоматическое"</item>
+        <item>"RDP:"</item>
+        <item>"как TLS"</item>
+        <item>"NLA"</item>
+    </string-array>
+
+    <string name="settings_remote_program">"Программа удаленного"</string>
+    <string name="settings_work_dir">"Рабочий каталог"</string>
+    <string name="settings_console_mode">"Режим консоли"</string>
+    <!-- App settings strings -->
+    <string name="settings_password_present">"*******"</string>
+    <string name="settings_password_empty">"не установлено"</string>
+    <string name="settings_cat_ui">"Пользовательский интерфейс "</string>
+    <string name="settings_ui_hide_status_bar">"Скрыть строки состояния"</string>
+    <string name="settings_ui_hide_zoom_controls">"Скрыть управления масштабированием"</string>
+    <string name="settings_ui_swap_mouse_buttons">"Поменять кнопки мыши"</string>
+    <string name="settings_ui_invert_scrolling">"Обратить прокрутка"</string>
+    <string name="settings_ui_auto_scroll_touchpointer">"Сенсорный указатель Auto Scroll"</string>
+    <string name="settings_ui_ask_on_exit">"Показывать диалог при выходе"</string>
+    <string name="settings_cat_power">"Энергосбережение"</string>
+    <string name="settings_power_disconnect_timeout">"Закрытие неиспользуемых подключений"</string>
+    <string name="settings_cat_security">"Безопасность"</string>
+    <string name="settings_security_accept_certificates">"Принимать все сертификаты"</string>
+    <string name="settings_security_clear_certificate_cache">"Очистить кэш сертификатов"</string>
+    <string name="settings_description_after_minutes">"После %1$d Минуты"</string>
+    <string name="settings_description_disabled">"Отключено"</string>
+    <!-- Activity titles -->
+    <string name="title_bookmark_settings">"Настройки соединения"</string>
+    <string name="title_application_settings">"Настройки"</string>
+    <string name="title_home">"Remote Desktop"</string>
+    <string name="title_create_shortcut">"RDP подключений"</string>
+    <string name="title_help">"\"Хочешь я тебе помогу?\""</string>
+    <string name="title_about">"О"</string>
+    <!-- Error message strings -->
+    <string name="error_bookmark_incomplete_title">"Отменить без сохранения?"</string>
+    <string name="error_bookmark_incomplete">"Нажмите кнопку \"Отмена\" для отмены: \ nНажмите \"Продолжить\", чтобы указать необходимые поля!"</string>
+    <string name="error_connection_failure">"Не удалось установить соединение с сервером!"</string>
+    <!-- Info message strings -->
+    <string name="info_capabilities_changed">"Установки экрана изменились, так как сервер не поддерживает указанными настройками!"</string>
+    <string name="info_reset_success">"Удаленный сертификат кэш!"</string>
+    <string name="info_reset_failed">"Не удалось удалить сертификат кэш!"</string>
+    <!-- Dialog strings -->
+    <string name="dlg_title_verify_certificate">"Проверить сертификат"</string>
+    <string name="dlg_msg_verify_certificate">"Идентичность удаленный компьютер не может быть проверена. Вы хотите подключить в любом случае?"</string>
+    <string name="dlg_title_credentials">"Пожалуйста, введите Ваше Имя Пользователя и Пароль"</string>
+    <string name="dlg_title_create_shortcut">"Создать ярлык"</string>
+    <string name="dlg_msg_create_shortcut">"Сокращенное наименование:"</string>
+    <string name="dlg_msg_connecting">"Подключение ..."</string>
+    <string name="dlg_msg_logging_in">"Вход в систему"</string>
+    <string name="dlg_title_about">"О Rdp Remote Desktop"</string>
+    <string name="dlg_msg_about">"Версия: %1$s"</string>
+    <string name="dlg_title_create_bookmark_after_qc">"Сохранить настройки подключения?"</string>
+    <string name="dlg_msg_create_bookmark_after_qc">"Параметры подключения не был сохранен! Вы хотите, чтобы спасти их?"</string>
+    <string name="dlg_title_save_bookmark">"Сохранить связь?"</string>
+    <string name="dlg_save_bookmark">"Вы хотите, чтобы сохранить изменения, внесенные в настройки соединения?"</string>
+    <string name="dlg_dont_show_again">"И больше не спрашивай!"</string>
+    <string name="dlg_title_exit">"Выход из приложения?"</string>
+    <string name="dlg_msg_exit">"Вы уверены, что хотите выйти из приложения?"</string>
+    <string name="dlg_title_clear_cert_cache">"Удалить сертификаты?"</string>
+    <string name="dlg_msg_clear_cert_cache">"Вы уверены, что хотите удалить все ваши кэшированные сертификаты?"</string>
+    <string name="Trial_expires_in">"Пробного периода в"</string>
+    <string name="days">"дней"</string>
+    <string name="hours">"часов"</string>
+    <string name="minutes">"Мин"</string>
+    <string name="seconds">"сек"</string>
+    <string name="Trial_expired">"Судебная истек"</string>
+    <string name="You_have_already_purchased_license">"Вы уже приобрели лицензию"</string>
+    <string name="Your_iPlay_Audio_license_has_been_retrived">"Ваша Rdp Remote Desktop лицензии были получены. Пожалуйста, перезагрузите Rdp Remote Desktop."</string>
+    <string name="Error_purchasing_license">"Ошибка покупке лицензии"</string>
+    <string name="Please_try_again">"Попробуйте ещё раз."</string>
+    <string name="Congratulations">"Поздравляем!"</string>
+    <string name="License_purchased_sucessfully">"Приобретенной лицензии успешно. Пожалуйста, перезагрузите Rdp Remote Desktop."</string>
+    <string name="iPlay_Audio_Trial_Expired">"Rdp Remote Desktop Судебная Истекло!"</string>
+    <string name="Please_purchase_iPlay_Audio_license_from_market">"Пожалуйста, купите лицензию Rdp Remote Desktop рынке."</string>
+    <string name="ok">"ОК"</string>
+    <string name="Get_from_Market">"Получить от рынка"</string>
+    <string name="download_iPlay_Audio_License_from_Android_Market">"Пожалуйста, скачайте Rdp Remote Desktop Лицензия от рынка Android"</string>
+    <string name="General">"Общая информация "</string>
+    <string name="pref_trialExp">"Судебная истек. Приобрести полную версию с рынка"</string>
+    <string name="Download_Full_Version">"Скачать полную версию"</string>
+</resources>

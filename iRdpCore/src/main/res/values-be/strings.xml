@@ -1,0 +1,182 @@
+<resources>
+    <string name="vnc">"Vnc"</string>
+    <string name="rdp">"RDP"</string>
+    <!-- Button labels -->
+    <string name="yes">"Так"</string>
+    <string name="no">"Не."</string>
+    <string name="cancel">"Адмяніць"</string>
+    <string name="cont">"Працягваць"</string>
+    <string name="login">"Увайсці"</string>
+    <string name="logout">"Выхад"</string>
+    <!-- Home menu items -->
+    <string name="menu_exit">"Выхад"</string>
+    <string name="menu_about">"Аб"</string>
+    <string name="menu_help">"Дапамога"</string>
+    <string name="menu_new_bookmark">"Новае падключэнне"</string>
+    <string name="menu_app_settings">"Налады"</string>
+    <!-- Bookmark menu items -->
+    <string name="menu_title_bookmark">"Падлучэнне"</string>
+    <string name="menu_connect">"Падключаць"</string>
+    <string name="menu_edit">"Рэдагаваць"</string>
+    <string name="menu_delete">"Выдаляць"</string>
+    <!-- Session menu items -->
+    <string name="menu_sys_keyboard">"Клавіятура"</string>
+    <string name="menu_ext_keyboard">"Функцыянальныя клавішы"</string>
+    <string name="menu_touch_pointer">"Сэнсарны паказальнік"</string>
+    <string name="menu_home">"дома"</string>
+    <string name="menu_disconnect">"адключаць"</string>
+    <!-- List section headers -->
+    <string name="section_bookmarks">"Кіраўніцтва падлучэнняў"</string>
+    <string name="section_active_sessions">"Актыўныя сеансы"</string>
+    <!-- Search strings -->
+    <string name="search_hint">"Падлучэнне да кампутара"</string>
+    <!-- List placeholder labels -->
+    <string name="list_placeholder_login">"Увайсці"</string>
+    <string name="list_placeholder_no_servers">"Няма Сервера"</string>
+    <string name="list_placeholder_connecting">"Падлучэнне ..."</string>
+    <string name="list_placeholder_disconnecting">"Разрыў злучэння ..."</string>
+    <string name="list_placeholder_connection_error">"Страта сувязі"</string>
+    <string name="list_placeholder_wrong_password">"Няправільны пароль"</string>
+    <string name="list_placeholder_invalid_username">"Няправільны Імя карыстальніка"</string>
+    <string name="list_placeholder_add_bookmark">"Дадаць падключэнне"</string>
+    <!-- Bookmark settings strings -->
+    <string name="settings_cat_host">"Гаспадар"</string>
+    <string name="settings_label">"Этыкетка"</string>
+    <string name="settings_hostname">"Гаспадар"</string>
+    <string name="settings_port">"Порт"</string>
+    <string name="settings_cat_credentials">"Паўнамоцтвы"</string>
+    <string name="settings_credentials">"Паўнамоцтвы"</string>
+    <string name="settings_username">"Імя карыстальніка"</string>
+    <string name="settings_password">"Пароль"</string>
+    <string name="settings_domain">"Дамен"</string>
+    <string name="settings_cat_settings">"Налады"</string>
+    <string name="settings_screen">"Экран"</string>
+    <string name="settings_cat_screen">"Налады экрана"</string>
+    <string name="settings_colors">"Колеру"</string>
+    <string-array name="colors_array">
+        <item>"High Color (16 біт)"</item>
+        <item>"True Color (24 біт)"</item>
+        <item>"Высокая якасць (32 біт)"</item>
+    </string-array>
+    <string name="settings_resolution">"Дазвол"</string>
+    <string name="resolution_automatic">"Аўтаматычны"</string>
+    <string name="resolution_custom">"Звычай"</string>
+    <string-array name="resolutions_array">
+        <item>"Аўтаматычны"</item>
+        <item>"Звычай"</item>
+        <item>"640x480"</item>
+        <item>"720x480"</item>
+        <item>"800x600"</item>
+        <item>"1024x768"</item>
+        <item>"1280x1024"</item>
+        <item>"1440x900"</item>
+        <item>"1920x1080"</item>
+        <item>"1920x1200"</item>
+    </string-array>
+    <string name="settings_width">"Шырыня"</string>
+    <string name="settings_height">"Вышыня"</string>
+    <string name="settings_performance">"Прадукцыйнасць"</string>
+    <string name="settings_cat_performance">"Налады прадукцыйнасці"</string>
+    <string name="settings_perf_remotefx">"RemoteFX"</string>
+    <string name="settings_perf_wallpaper">"Для рабочага стала"</string>
+    <string name="settings_perf_font_smoothing">"Згладжванне шрыфтоў"</string>
+    <string name="settings_perf_desktop_composition">"Кампазіцыя рабочага стала"</string>
+    <string name="settings_perf_full_window_drag">"Змесціва акна пры перацягванні"</string>
+    <string name="settings_perf_menu_animation">"Анімацыя меню"</string>
+    <string name="settings_perf_theming">"Візуальныя стылі"</string>
+    <string name="settings_advanced">"Перадавой"</string>
+    <string name="settings_cat_advanced">"Пашыраныя налады"</string>
+    <string name="settings_enable_3g_settings">"Налады 3G"</string>
+    <string name="settings_screen_3g">"3G экрана"</string>
+    <string name="settings_performance_3g">"Прадукцыйнасць 3G"</string>
+    <string name="settings_cat_gateway">"Шлюз"</string>
+    <string name="settings_enable_gateway_settings">"Ўключыць шлюз"</string>
+    <string name="settings_gateway_settings">"Параметры шлюза"</string>
+    <string name="settings_redirect_sdcard">"Падзяліцца SDCard"</string>
+    <string name="settings_redirect_ClipBoard">"Падзяліцца ClipBoard"</string>
+    <string name="settings_redirect_Audio">"Аўдыё"</string>
+    <string name="settings_redirect_Audio_Android">"Гуляць на Android"</string>
+    <string name="settings_redirect_Audio_Computer">"Пагуляю на кампутары"</string>
+    <string name="settings_security">"Бяспеку"</string>
+    <string-array name="security_array">
+        <item>"Аўтаматычны"</item>
+        <item>"RDP"</item>
+        <item>"TLS"</item>
+        <item>"NLA"</item>
+    </string-array>
+
+    <string name="settings_remote_program">"Праграма аддаленага"</string>
+    <string name="settings_work_dir">"Працоўны каталог"</string>
+    <string name="settings_console_mode">"Рэжым кансолі"</string>
+    <!-- App settings strings -->
+    <string name="settings_password_present">"*******"</string>
+    <string name="settings_password_empty">"не ўстаноўлены"</string>
+    <string name="settings_cat_ui">"Інтэрфейс карыстальніка"</string>
+    <string name="settings_ui_hide_status_bar">"Схаваць радкі стану"</string>
+    <string name="settings_ui_hide_zoom_controls">"Схаваць кіравання маштабаваннем"</string>
+    <string name="settings_ui_swap_mouse_buttons">"Памяняць кнопкі мышы"</string>
+    <string name="settings_ui_invert_scrolling">"Звярнуць пракрутка"</string>
+    <string name="settings_ui_auto_scroll_touchpointer">"Сэнсарны паказальнік Auto Scroll"</string>
+    <string name="settings_ui_ask_on_exit">"Паказваць дыялог пры выхадзе"</string>
+    <string name="settings_cat_power">"Энергазберажэнне"</string>
+    <string name="settings_power_disconnect_timeout">"Закрыццё невыкарыстоўваемых падлучэнняў"</string>
+    <string name="settings_cat_security">"Бяспеку"</string>
+    <string name="settings_security_accept_certificates">"Прымаць усе сертыфікаты"</string>
+    <string name="settings_security_clear_certificate_cache">"Ачысціць кэш сертыфікатаў"</string>
+    <string name="settings_description_after_minutes">"Пасля %1$d Хвіліны"</string>
+    <string name="settings_description_disabled">"Інвалід"</string>
+    <!-- Activity titles -->
+    <string name="title_bookmark_settings">"Налады злучэння"</string>
+    <string name="title_application_settings">"Налады"</string>
+    <string name="title_home">"Windows Remote Desktop"</string>
+    <string name="title_create_shortcut">"RDP падлучэнняў"</string>
+    <string name="title_help">"Дапамога"</string>
+    <string name="title_about">"Аб"</string>
+    <!-- Error message strings -->
+    <string name="error_bookmark_incomplete_title">"Адмяніць без захавання?"</string>
+    <string name="error_bookmark_incomplete">"Націсніце кнопку \"Адмена\" для адмены: \ nНацісьніце \"Працягнуць\", каб паказаць неабходныя палі!"</string>
+    <string name="error_connection_failure">"Не атрымалася ўсталяваць злучэнне з серверам!"</string>
+    <!-- Info message strings -->
+    <string name="info_capabilities_changed">"Ўстаноўкі экрана змяніліся, бо сэрвэр не падтрымлівае названымі наладамі!"</string>
+    <string name="info_reset_success">"Аддалены сертыфікат кэш!"</string>
+    <string name="info_reset_failed">"Не атрымалася выдаліць сертыфікат кэш!"</string>
+    <!-- Dialog strings -->
+    <string name="dlg_title_verify_certificate">"Праверыць сертыфікат"</string>
+    <string name="dlg_msg_verify_certificate">"Ідэнтычнасць выдалены кампутар не можа быць праверана. Вы хочаце падлучыць у любым выпадку?"</string>
+    <string name="dlg_title_credentials">"Калі ласка, увядзіце свае ўліковыя дадзеныя"</string>
+    <string name="dlg_title_create_shortcut">"Стварыць цэтлік"</string>
+    <string name="dlg_msg_create_shortcut">"Скарочаная назва:"</string>
+    <string name="dlg_msg_connecting">"Падлучэнне ..."</string>
+    <string name="dlg_msg_logging_in">"Уваход у сістэму ..."</string>
+    <string name="dlg_title_about">"Аб Rdp Remote Desktop"</string>
+    <string name="dlg_msg_about">"Версія: %1$s"</string>
+    <string name="dlg_title_create_bookmark_after_qc">"Захаваць налады падлучэння?"</string>
+    <string name="dlg_msg_create_bookmark_after_qc">"Параметры падлучэння ня быў замацаваны! Вы хочаце, каб выратаваць іх?"</string>
+    <string name="dlg_title_save_bookmark">"Захаваць сувязь?"</string>
+    <string name="dlg_save_bookmark">"Вы хочаце, каб захаваць змены, унесеныя ў налады злучэння?"</string>
+    <string name="dlg_dont_show_again">"Больш не пытаць"</string>
+    <string name="dlg_title_exit">"Выхад з прыкладання?"</string>
+    <string name="dlg_msg_exit">"Вы ўпэўненыя, што хочаце выйсці з прыкладання?"</string>
+    <string name="dlg_title_clear_cert_cache">"Выдаліць сертыфікаты?"</string>
+    <string name="dlg_msg_clear_cert_cache">"Вы ўпэўненыя, што жадаеце выдаліць усе вашыя кэшаваныя сертыфікаты?"</string>
+    <string name="Trial_expires_in">"Выпрабавальнага перыяду ў"</string>
+    <string name="days">"дзён"</string>
+    <string name="hours">"гадзін"</string>
+    <string name="minutes">"хвілін"</string>
+    <string name="seconds">"секунды"</string>
+    <string name="Trial_expired">"Судовая скончыўся"</string>
+    <string name="You_have_already_purchased_license">"Вы ўжо набылі ліцэнзію"</string>
+    <string name="Your_iPlay_Audio_license_has_been_retrived">"Ваша Rdp Remote Desktop ліцэнзіі былі атрыманы. Калі ласка, перазагрузіце Rdp Remote Desktop."</string>
+    <string name="Error_purchasing_license">"Памылка куплі ліцэнзіі"</string>
+    <string name="Please_try_again">"Калі ласка, паспрабуйце яшчэ раз."</string>
+    <string name="Congratulations">"Віншуем!"</string>
+    <string name="License_purchased_sucessfully">"Набытай ліцэнзіі паспяхова. Калі ласка, перазагрузіце Rdp Remote Desktop."</string>
+    <string name="iPlay_Audio_Trial_Expired">"Rdp Remote Desktop Судовая Скончылася!"</string>
+    <string name="Please_purchase_iPlay_Audio_license_from_market">"Калі ласка, купіце ліцэнзію Rdp Remote Desktop рынку."</string>
+    <string name="ok">"Добра"</string>
+    <string name="Get_from_Market">"Атрымаць ад рынку"</string>
+    <string name="download_iPlay_Audio_License_from_Android_Market">"Калі ласка, запампуйце Rdp Remote Desktop Ліцэнзія ад рынку Android"</string>
+    <string name="General">"Агульны"</string>
+    <string name="pref_trialExp">"Судовая мінуў. Набыць поўную версію з рынку"</string>
+    <string name="Download_Full_Version">"Спампаваць поўную версію"</string>
+</resources>

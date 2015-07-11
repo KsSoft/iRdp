@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\Shared_data\Android\android-sdk-windows\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="D:\Shared_data\rdp-remote-desktop-license\app\build\intermediates\pre-dexed\release\support-v4-18.0.0-580d37d14fedf6a68b7c319e328ffbcfdd916a91.jar" />
+    </item>
+
+</items>

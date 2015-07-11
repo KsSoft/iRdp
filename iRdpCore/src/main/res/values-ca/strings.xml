@@ -1,0 +1,182 @@
+<resources>
+    <string name="vnc">"Vnc"</string>
+    <string name="rdp">"RDP"</string>
+    <!-- Button labels -->
+    <string name="yes">"Sí"</string>
+    <string name="no">"No"</string>
+    <string name="cancel">"Cancel·la"</string>
+    <string name="cont">"Continuar"</string>
+    <string name="login">"Usuari"</string>
+    <string name="logout">"Finalitzar la sessió"</string>
+    <!-- Home menu items -->
+    <string name="menu_exit">"Surt"</string>
+    <string name="menu_about">"Quant a"</string>
+    <string name="menu_help">"Ajuda"</string>
+    <string name="menu_new_bookmark">"Nova connexió"</string>
+    <string name="menu_app_settings">"Configuració"</string>
+    <!-- Bookmark menu items -->
+    <string name="menu_title_bookmark">"Connexió"</string>
+    <string name="menu_connect">"Connectar"</string>
+    <string name="menu_edit">"Edita"</string>
+    <string name="menu_delete">"Suprimeix"</string>
+    <!-- Session menu items -->
+    <string name="menu_sys_keyboard">"Teclat"</string>
+    <string name="menu_ext_keyboard">"Tecles de funció"</string>
+    <string name="menu_touch_pointer">"Punter Touch"</string>
+    <string name="menu_home">"Pàgina d'inici"</string>
+    <string name="menu_disconnect">"desconnectar"</string>
+    <!-- List section headers -->
+    <string name="section_bookmarks">"Instruccions d'ús Connexions"</string>
+    <string name="section_active_sessions">"Sessions actives"</string>
+    <!-- Search strings -->
+    <string name="search_hint">"Connecta't a la Informàtica"</string>
+    <!-- List placeholder labels -->
+    <string name="list_placeholder_login">"Usuari"</string>
+    <string name="list_placeholder_no_servers">"No hi ha servidors"</string>
+    <string name="list_placeholder_connecting">"S'està connectant"</string>
+    <string name="list_placeholder_disconnecting">"Desconnectant ..."</string>
+    <string name="list_placeholder_connection_error">"Pèrdua de connexió"</string>
+    <string name="list_placeholder_wrong_password">"Clau errònia"</string>
+    <string name="list_placeholder_invalid_username">"Nom d'usuari no vàlid"</string>
+    <string name="list_placeholder_add_bookmark">"Afegeix connexió"</string>
+    <!-- Bookmark settings strings -->
+    <string name="settings_cat_host">"Amfitrió"</string>
+    <string name="settings_label">"Etiqueta"</string>
+    <string name="settings_hostname">"Amfitrió"</string>
+    <string name="settings_port">"Port"</string>
+    <string name="settings_cat_credentials">"Cartes credencials"</string>
+    <string name="settings_credentials">"Cartes credencials"</string>
+    <string name="settings_username">"Nom d'usuari"</string>
+    <string name="settings_password">"Contrasenya"</string>
+    <string name="settings_domain">"do"</string>
+    <string name="settings_cat_settings">"Configuració"</string>
+    <string name="settings_screen">"Pantalla"</string>
+    <string name="settings_cat_screen">"Configuració de la pantalla"</string>
+    <string name="settings_colors">"Colors"</string>
+    <string-array name="colors_array">
+        <item>"High Color (16 bits)"</item>
+        <item>"Color real (24 bits)"</item>
+        <item>"Més d'alta qualitat (32 bits)"</item>
+    </string-array>
+    <string name="settings_resolution">"Resolució"</string>
+    <string name="resolution_automatic">"Automàtic"</string>
+    <string name="resolution_custom">"Personalitzada"</string>
+    <string-array name="resolutions_array">
+        <item>"Automàtic"</item>
+        <item>"Personalitzada"</item>
+        <item>"640x480"</item>
+        <item>"720x480"</item>
+        <item>"800x600"</item>
+        <item>"1024x768"</item>
+        <item>"1280x1024"</item>
+        <item>"1440x900"</item>
+        <item>"1920x1080"</item>
+        <item>"1920x1200"</item>
+    </string-array>
+    <string name="settings_width">"Amplada"</string>
+    <string name="settings_height">"Alçada"</string>
+    <string name="settings_performance">"Rendiment"</string>
+    <string name="settings_cat_performance">"Configuració de rendiment"</string>
+    <string name="settings_perf_remotefx">"RemoteFX"</string>
+    <string name="settings_perf_wallpaper">"Fons de l'escriptori"</string>
+    <string name="settings_perf_font_smoothing">"Suavitzat de fonts"</string>
+    <string name="settings_perf_desktop_composition">"Composició d'escriptori"</string>
+    <string name="settings_perf_full_window_drag">"Continguts de la finestra mentre s'arrossega"</string>
+    <string name="settings_perf_menu_animation">"Animació Menu"</string>
+    <string name="settings_perf_theming">"Estils visuals"</string>
+    <string name="settings_advanced">"Avançat"</string>
+    <string name="settings_cat_advanced">"Configuracions avançades"</string>
+    <string name="settings_enable_3g_settings">"Configuració 3G"</string>
+    <string name="settings_screen_3g">"Pantalla 3G"</string>
+    <string name="settings_performance_3g">"Rendiment 3G"</string>
+    <string name="settings_cat_gateway">"Entrada"</string>
+    <string name="settings_enable_gateway_settings">"Habilitar passarel ·"</string>
+    <string name="settings_gateway_settings">"Configuració de porta d'enllaç"</string>
+    <string name="settings_redirect_sdcard">"Compartir sdcard"</string>
+    <string name="settings_redirect_ClipBoard">"Compartir Clipboard"</string>
+    <string name="settings_redirect_Audio">"Àudio"</string>
+    <string name="settings_redirect_Audio_Android">"Juga en Android"</string>
+    <string name="settings_redirect_Audio_Computer">"Juga a l'equip"</string>
+    <string name="settings_security">"Seguretat"</string>
+    <string-array name="security_array">
+        <item>"Automàtic"</item>
+        <item>"RDP"</item>
+        <item>"TLS"</item>
+        <item>"NLA"</item>
+    </string-array>
+
+    <string name="settings_remote_program">"Remote Program"</string>
+    <string name="settings_work_dir">"Directori de treball"</string>
+    <string name="settings_console_mode">"Mode consola"</string>
+    <!-- App settings strings -->
+    <string name="settings_password_present">"*******"</string>
+    <string name="settings_password_empty">"no s'estableix"</string>
+    <string name="settings_cat_ui">"Interfície d'usuari"</string>
+    <string name="settings_ui_hide_status_bar">"Oculta la barra d'estat"</string>
+    <string name="settings_ui_hide_zoom_controls">"Amaga controls de zoom"</string>
+    <string name="settings_ui_swap_mouse_buttons">"Intercanviar botons del ratolí"</string>
+    <string name="settings_ui_invert_scrolling">"Invertir Scrolling"</string>
+    <string name="settings_ui_auto_scroll_touchpointer">"Touch Punter de desplaçament automàtic"</string>
+    <string name="settings_ui_ask_on_exit">"Mostra quadre de diàleg de sortida"</string>
+    <string name="settings_cat_power">"Estalvi d'energia"</string>
+    <string name="settings_power_disconnect_timeout">"Tancar les connexions inactives"</string>
+    <string name="settings_cat_security">"Seguretat"</string>
+    <string name="settings_security_accept_certificates">"Acceptar tots els certificats"</string>
+    <string name="settings_security_clear_certificate_cache">"Esborrar la memòria cau Certificat"</string>
+    <string name="settings_description_after_minutes">"Després de %1$d Minuts"</string>
+    <string name="settings_description_disabled">"Deshabilitat"</string>
+    <!-- Activity titles -->
+    <string name="title_bookmark_settings">"Configuració de la connexió"</string>
+    <string name="title_application_settings">"Configuració"</string>
+    <string name="title_home">"Remote Desktop"</string>
+    <string name="title_create_shortcut">"Connexions RDP"</string>
+    <string name="title_help">"Ajuda"</string>
+    <string name="title_about">"Quant a"</string>
+    <!-- Error message strings -->
+    <string name="error_bookmark_incomplete_title">"Cancel sense desar?"</string>
+    <string name="error_bookmark_incomplete">"Premeu el botó \"Cancel · lar\" per avortar! \ NFeu clic a \"Continua\" per especificar els camps obligatoris!"</string>
+    <string name="error_connection_failure">"No s'ha pogut establir una connexió amb el servidor!"</string>
+    <!-- Info message strings -->
+    <string name="info_capabilities_changed">"Els paràmetres de la pantalla s'han canviat perquè el servidor no admet la configuració especificada!"</string>
+    <string name="info_reset_success">"Es va eliminar la memòria cau certificat!"</string>
+    <string name="info_reset_failed">"Error en eliminar la memòria cau certificat!"</string>
+    <!-- Dialog strings -->
+    <string name="dlg_title_verify_certificate">"Verificar Certificat"</string>
+    <string name="dlg_msg_verify_certificate">"La identitat de l'equip remot no pot ser verificada. Voleu connectar de totes maneres?"</string>
+    <string name="dlg_title_credentials">"Si us plau, introdueixi les seves credencials"</string>
+    <string name="dlg_title_create_shortcut">"Crea dreceres"</string>
+    <string name="dlg_msg_create_shortcut">"Nom de l'accés directe:"</string>
+    <string name="dlg_msg_connecting">"S'està connectant"</string>
+    <string name="dlg_msg_logging_in">"Inici de sessió en ..."</string>
+    <string name="dlg_title_about">"Sobre Rdp Remote Desktop"</string>
+    <string name="dlg_msg_about">"Versió: %1$s"</string>
+    <string name="dlg_title_create_bookmark_after_qc">"Desa la configuració de connexió?"</string>
+    <string name="dlg_msg_create_bookmark_after_qc">"La configuració de connexió no han estat guardats! Vols salvar?"</string>
+    <string name="dlg_title_save_bookmark">"Estalvia connexió?"</string>
+    <string name="dlg_save_bookmark">"Voleu desar els canvis en la configuració de connexió?"</string>
+    <string name="dlg_dont_show_again">"No tornar a preguntar"</string>
+    <string name="dlg_title_exit">"Sortiu de l'aplicació?"</string>
+    <string name="dlg_msg_exit">"Està segur que desitja sortir de l'aplicació?"</string>
+    <string name="dlg_title_clear_cert_cache">"Eliminar certificats?"</string>
+    <string name="dlg_msg_clear_cert_cache">"Esteu segur que voleu suprimir tots els certificats emmagatzemats en memòria cau?"</string>
+    <string name="Trial_expires_in">"Prova expira el"</string>
+    <string name="days">"dies"</string>
+    <string name="hours">"hores"</string>
+    <string name="minutes">"min"</string>
+    <string name="seconds">"segon"</string>
+    <string name="Trial_expired">"Trial caducat"</string>
+    <string name="You_have_already_purchased_license">"Ja has comprat la llicència"</string>
+    <string name="Your_iPlay_Audio_license_has_been_retrived">"La seva llicència Rdp Remote Desktop s'ha recuperat. Reinicieu el PDRI."</string>
+    <string name="Error_purchasing_license">"Llicència de compra d'error"</string>
+    <string name="Please_try_again">"Torneu-ho a provar."</string>
+    <string name="Congratulations">"Enhorabona!"</string>
+    <string name="License_purchased_sucessfully">"Llicència adquirir amb èxit. Reinicieu Rdp Remote Desktop."</string>
+    <string name="iPlay_Audio_Trial_Expired">"Rdp Remote Desktop prova caducada!"</string>
+    <string name="Please_purchase_iPlay_Audio_license_from_market">"Si us plau, compri la llicència Rdp Remote Desktop del mercat."</string>
+    <string name="ok">"D'acord"</string>
+    <string name="Get_from_Market">"Obtenir de Mercat"</string>
+    <string name="download_iPlay_Audio_License_from_Android_Market">"Si us plau, descarregui Llicència Rdp Remote Desktop l'Android Market"</string>
+    <string name="General">"Informació general."</string>
+    <string name="pref_trialExp">"Trial caducat. Comprar versió completa del mercat"</string>
+    <string name="Download_Full_Version">"Descarrega la versió completa"</string>
+</resources>

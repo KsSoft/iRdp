@@ -1,0 +1,183 @@
+<resources>
+    <string name="vnc">"VNC"</string>
+    <string name="rdp">"RDP"</string>
+    <!-- Button labels -->
+    <string name="yes">"はい"</string>
+    <string name="no">"ノー"</string>
+    <string name="cancel">"キャンセル"</string>
+    <string name="cont">"次へ"</string>
+    <string name="login">"ログイン"</string>
+    <string name="logout">"ログアウト"</string>
+    <!-- Home menu items -->
+    <string name="menu_exit">"終了"</string>
+    <string name="menu_about">"約"</string>
+    <string name="menu_help">"[help]"</string>
+    <string name="menu_new_bookmark">"新しい接続"</string>
+    <string name="menu_app_settings">"設定"</string>
+    <!-- Bookmark menu items -->
+    <string name="menu_title_bookmark">"接続"</string>
+    <string name="menu_connect">"関係つける"</string>
+    <string name="menu_edit">"編集"</string>
+    <string name="menu_delete">"削除"</string>
+    <!-- Session menu items -->
+    <string name="menu_sys_keyboard">"keyboard"</string>
+    <string name="menu_ext_keyboard">"ファンクションキー"</string>
+    <string name="menu_touch_pointer">"タッチポインタ"</string>
+    <string name="menu_home">"ホーム"</string>
+    <string name="menu_disconnect">"連携解除"</string>
+    <!-- List section headers -->
+    <string name="section_bookmarks">"手動接続"</string>
+    <string name="section_active_sessions">"アクティブセッション"</string>
+    <!-- Search strings -->
+    <string name="search_hint">"コンピュータへの接続"</string>
+    <!-- List placeholder labels -->
+    <string name="list_placeholder_login">"ログイン"</string>
+    <string name="list_placeholder_no_servers">"いいえサーバーません"</string>
+    <string name="list_placeholder_connecting">"接続しています"</string>
+    <string name="list_placeholder_disconnecting">"切断しています…"</string>
+    <string name="list_placeholder_connection_error">"接続が失われた"</string>
+    <string name="list_placeholder_wrong_password">"パスワードが違います"</string>
+    <string name="list_placeholder_invalid_username">"ユーザー名が無効です。"</string>
+    <string name="list_placeholder_add_bookmark">"接続の追加"</string>
+    <!-- Bookmark settings strings -->
+    <string name="settings_cat_host">"ホスト"</string>
+    <string name="settings_label">"ラベル"</string>
+    <string name="settings_hostname">"ホスト"</string>
+    <string name="settings_port">"ポート"</string>
+    <string name="settings_cat_credentials">"Credentials"</string>
+    <string name="settings_credentials">"Credentials"</string>
+    <string name="settings_username">"ユーザー名"</string>
+    <string name="settings_password">"パスワード"</string>
+    <string name="settings_domain">"ドメイン"</string>
+    <string name="settings_cat_settings">"設定"</string>
+    <string name="settings_screen">"画面 «"</string>
+    <string name="settings_cat_screen">"画面設定"</string>
+    <string name="settings_colors">"色"</string>
+    <string-array name="colors_array">
+        <item>"ハイカラー（16ビット）"</item>
+        <item>"トゥルーカラー（24ビット）"</item>
+        <item>"最高品質（32ビット）"</item>
+    </string-array>
+    <string name="settings_resolution">"解像度（Resolution）"</string>
+    <string name="resolution_automatic">"自動"</string>
+    <string name="resolution_custom">"カスタム"</string>
+    <string-array name="resolutions_array">
+        <item>"自動"</item>
+        <item>"カスタム"</item>
+        <item>"640×480"</item>
+        <item>"720×480"</item>
+        <item>"800×600"</item>
+        <item>"1024x768"</item>
+        <item>"1280x1024"</item>
+        <item>"1440x900"</item>
+        <item>"1920x1080"</item>
+        <item>"1920x1200"</item>
+    </string-array>
+    <string name="settings_width">"幅"</string>
+    <string name="settings_height">"高さ"</string>
+    <string name="settings_performance">"性能"</string>
+    <string name="settings_cat_performance">"パフォーマンス設定"</string>
+    <string name="settings_perf_remotefx">"RemoteFXの"</string>
+    <string name="settings_perf_wallpaper">"デスクトップの背景"</string>
+    <string name="settings_perf_font_smoothing">"フォントスムージング"</string>
+    <string name="settings_perf_desktop_composition">"デスクトップコンポジション"</string>
+    <string name="settings_perf_full_window_drag">"ドラッグ中にウィンドウの内容"</string>
+    <string name="settings_perf_menu_animation">"メニューアニメーション"</string>
+    <string name="settings_perf_theming">"ビジュアルスタイル"</string>
+    <string name="settings_advanced">"上級編"</string>
+    <string name="settings_cat_advanced">"拡張設定
+"</string>
+    <string name="settings_enable_3g_settings">"3G設定"</string>
+    <string name="settings_screen_3g">"3Gの画面"</string>
+    <string name="settings_performance_3g">"3Gのパフォーマンス"</string>
+    <string name="settings_cat_gateway">"ゲートウェイ"</string>
+    <string name="settings_enable_gateway_settings">"ゲートウェイを有効にする"</string>
+    <string name="settings_gateway_settings">"ゲートウェイの設定"</string>
+    <string name="settings_redirect_sdcard">"共有SDカード"</string>
+    <string name="settings_redirect_ClipBoard">"共有のクリップボード"</string>
+    <string name="settings_redirect_Audio">"音声"</string>
+    <string name="settings_redirect_Audio_Android">"アンドロイドで再生"</string>
+    <string name="settings_redirect_Audio_Computer">"コンピュータで再生"</string>
+    <string name="settings_security">"セキュリティ"</string>
+    <string-array name="security_array">
+        <item>"自動"</item>
+        <item>"RDP"</item>
+        <item>"TLS"</item>
+        <item>"NLA"</item>
+    </string-array>
+
+    <string name="settings_remote_program">"遠隔プログラム"</string>
+    <string name="settings_work_dir">"{0}{1}作業ディレクトリ{/1}{/0}"</string>
+    <string name="settings_console_mode">"コンソールモード"</string>
+    <!-- App settings strings -->
+    <string name="settings_password_present">"*******"</string>
+    <string name="settings_password_empty">"は設定されていません"</string>
+    <string name="settings_cat_ui">"ユーザーインタフェース"</string>
+    <string name="settings_ui_hide_status_bar">"ステータス・バーを隠す"</string>
+    <string name="settings_ui_hide_zoom_controls">"ズームコントロールを非表示にする"</string>
+    <string name="settings_ui_swap_mouse_buttons">"マウスボタンを入れ替え"</string>
+    <string name="settings_ui_invert_scrolling">"スクロールを反転"</string>
+    <string name="settings_ui_auto_scroll_touchpointer">"タッチポインタの自動スクロール"</string>
+    <string name="settings_ui_ask_on_exit">"終了時にダイアログを表示する"</string>
+    <string name="settings_cat_power">"節電"</string>
+    <string name="settings_power_disconnect_timeout">"アイドル状態の接続を閉じる"</string>
+    <string name="settings_cat_security">"セキュリティ"</string>
+    <string name="settings_security_accept_certificates">"すべての証明書を受け入れる"</string>
+    <string name="settings_security_clear_certificate_cache">"明確な証明書キャッシュ"</string>
+    <string name="settings_description_after_minutes">"後の%1$dミニッツ"</string>
+    <string name="settings_description_disabled">"無効化"</string>
+    <!-- Activity titles -->
+    <string name="title_bookmark_settings">"接続設定"</string>
+    <string name="title_application_settings">"設定"</string>
+    <string name="title_home">"のリモートデスクトップ"</string>
+    <string name="title_create_shortcut">"RDP接続"</string>
+    <string name="title_help">"[help]"</string>
+    <string name="title_about">"約"</string>
+    <!-- Error message strings -->
+    <string name="error_bookmark_incomplete_title">"保存せずにキャンセルしますか？"</string>
+    <string name="error_bookmark_incomplete">"中止する \"キャンセル\"を押してください！\必要なフィールドを指定するには、 \"続行\"を利用できるコマンドの一覧！"</string>
+    <string name="error_connection_failure">"サーバーへの接続を確立できませんでした！"</string>
+    <!-- Info message strings -->
+    <string name="info_capabilities_changed">"サーバーが指定した設定をサポートしていないため、画面の設定が変更されました！"</string>
+    <string name="info_reset_success">"証明書キャッシュ削除！"</string>
+    <string name="info_reset_failed">"証明書キャッシュの削除に失敗しました！"</string>
+    <!-- Dialog strings -->
+    <string name="dlg_title_verify_certificate">"証明書を確認"</string>
+    <string name="dlg_msg_verify_certificate">"リモートコンピュータのIDを検証することができません。とにかく接続しますか？"</string>
+    <string name="dlg_title_credentials">"資格情報を入力してください"</string>
+    <string name="dlg_title_create_shortcut">"create_shortcut"</string>
+    <string name="dlg_msg_create_shortcut">"ショートカット名："</string>
+    <string name="dlg_msg_connecting">"接続しています"</string>
+    <string name="dlg_msg_logging_in">"ログインしています..."</string>
+    <string name="dlg_title_about">"IRDPについて"</string>
+    <string name="dlg_msg_about">"バージョン： %1$s"</string>
+    <string name="dlg_title_create_bookmark_after_qc">"接続の設定を保存しますか？"</string>
+    <string name="dlg_msg_create_bookmark_after_qc">"接続設定は保存されていない！あなたがそれらを保存しますか？"</string>
+    <string name="dlg_title_save_bookmark">"接続を保存しますか？"</string>
+    <string name="dlg_save_bookmark">"あなたは接続設定に加えられた変更を保存しますか？"</string>
+    <string name="dlg_dont_show_again">"再び聞かないでください"</string>
+    <string name="dlg_title_exit">"アプリケーションを終了？"</string>
+    <string name="dlg_msg_exit">"あなたがアプリケーションを終了してもよろしいですか？"</string>
+    <string name="dlg_title_clear_cert_cache">"証明書を削除しますか？"</string>
+    <string name="dlg_msg_clear_cert_cache">"すべてのあなたのキャッシュされた証明書を削除してもよろしいですか？"</string>
+    <string name="Trial_expires_in">"トライアルの期限が切れる"</string>
+    <string name="days">"日"</string>
+    <string name="hours">"時"</string>
+    <string name="minutes">"分"</string>
+    <string name="seconds">"秒"</string>
+    <string name="Trial_expired">"試用期限が切れ"</string>
+    <string name="You_have_already_purchased_license">"すでにライセンスを購入した"</string>
+    <string name="Your_iPlay_Audio_license_has_been_retrived">"あなたのIRDPライセンスが取得された。 IRDPを再起動してください。"</string>
+    <string name="Error_purchasing_license">"エラー購買ライセンス"</string>
+    <string name="Please_try_again">"もう一度お試しください。"</string>
+    <string name="Congratulations">"おめでとう。"</string>
+    <string name="License_purchased_sucessfully">"ライセンスが正常に購入しました。 IRDPを再起動してください。"</string>
+    <string name="iPlay_Audio_Trial_Expired">"IRDPトライアル期限切れ！"</string>
+    <string name="Please_purchase_iPlay_Audio_license_from_market">"市場からIRDPライセンスをご購入ください。"</string>
+    <string name="ok">"ＯＫ"</string>
+    <string name="Get_from_Market">"マーケットから取得し"</string>
+    <string name="download_iPlay_Audio_License_from_Android_Market">"AndroidマーケットからIRDPライセンスをダウンロードしてください"</string>
+    <string name="General">"総論"</string>
+    <string name="pref_trialExp">"試用期限が切れました。市場からフルバージョンを購入"</string>
+    <string name="Download_Full_Version">"完全バージョンをダウンロード"</string>
+</resources>

@@ -1,0 +1,183 @@
+<resources>
+    <string name="vnc">"فنك"</string>
+    <string name="rdp">"RDP"</string>
+    <!-- Button labels -->
+    <string name="yes">"نعم"</string>
+    <string name="no">"لا"</string>
+    <string name="cancel">"إلغاء"</string>
+    <string name="cont">"أستمرار"</string>
+    <string name="login">"تسجيل الدخول"</string>
+    <string name="logout">"تسجيل الخروج"</string>
+    <!-- Home menu items -->
+    <string name="menu_exit">"خروج"</string>
+    <string name="menu_about">"حول"</string>
+    <string name="menu_help">"مفيد"</string>
+    <string name="menu_new_bookmark">"اتصال جديد"</string>
+    <string name="menu_app_settings">"الإعدادات"</string>
+    <!-- Bookmark menu items -->
+    <string name="menu_title_bookmark">"الاتصال"</string>
+    <string name="menu_connect">"ربط"</string>
+    <string name="menu_edit">"تعديل"</string>
+    <string name="menu_delete">"حذف"</string>
+    <!-- Session menu items -->
+    <string name="menu_sys_keyboard">"لوحة المفاتيح"</string>
+    <string name="menu_ext_keyboard">"وظيفة مفاتيح"</string>
+    <string name="menu_touch_pointer">"مؤشر اللمس"</string>
+    <string name="menu_home">"زنجة"</string>
+    <string name="menu_disconnect">"قطع"</string>
+    <!-- List section headers -->
+    <string name="section_bookmarks">"اتصالات دليل"</string>
+    <string name="section_active_sessions">"جلسات العمل النشطة"</string>
+    <!-- Search strings -->
+    <string name="search_hint">"الاتصال على الكمبيوتر"</string>
+    <!-- List placeholder labels -->
+    <string name="list_placeholder_login">"تسجيل الدخول"</string>
+    <string name="list_placeholder_no_servers">"لم ملقمات"</string>
+    <string name="list_placeholder_connecting">"جارٍ الاتصال"</string>
+    <string name="list_placeholder_disconnecting">"فصل ..."</string>
+    <string name="list_placeholder_connection_error">"فقد الاتصال"</string>
+    <string name="list_placeholder_wrong_password">"كلمة مرور خاطئة"</string>
+    <string name="list_placeholder_invalid_username">"اسم المستخدم غير صحيح"</string>
+    <string name="list_placeholder_add_bookmark">"إضافة اتصال"</string>
+    <!-- Bookmark settings strings -->
+    <string name="settings_cat_host">"مضيف"</string>
+    <string name="settings_label">"العلامة "</string>
+    <string name="settings_hostname">"مضيف"</string>
+    <string name="settings_port">"Port"</string>
+    <string name="settings_cat_credentials">"أوراق اعتماد"</string>
+    <string name="settings_credentials">"أوراق اعتماد"</string>
+    <string name="settings_username">"اسم المستخدم"</string>
+    <string name="settings_password">"كلمة المرور"</string>
+    <string name="settings_domain">"مجال"</string>
+    <string name="settings_cat_settings">"الإعدادات"</string>
+    <string name="settings_screen">"الشاشة"</string>
+    <string name="settings_cat_screen">"إعدادات الشاشة"</string>
+    <string name="settings_colors">"ألوان"</string>
+    <string-array name="colors_array">
+        <item>"لون عالي النوعية (16 بت)"</item>
+        <item>"لون حقيقي (24 بت)"</item>
+        <item>"أعلى مستوى من الجودة (32 بت)"</item>
+    </string-array>
+    <string name="settings_resolution">"الدقة"</string>
+    <string name="resolution_automatic">"أوتوماتيكي"</string>
+    <string name="resolution_custom">"مخصص/ مصنوع حسب الطلب"</string>
+    <string-array name="resolutions_array">
+        <item>"أوتوماتيكي"</item>
+        <item>"مخصص/ مصنوع حسب الطلب"</item>
+        <item>"640X480"</item>
+        <item>"720X480"</item>
+        <item>"800X600"</item>
+        <item>"1024x768"</item>
+        <item>"1280x1024"</item>
+        <item>"1440x900"</item>
+        <item>"1920x1080"</item>
+        <item>"1920x1200"</item>
+    </string-array>
+    <string name="settings_width">"عرض"</string>
+    <string name="settings_height">"ارتفاع"</string>
+    <string name="settings_performance">"أداء"</string>
+    <string name="settings_cat_performance">"إعدادات الأداء"</string>
+    <string name="settings_perf_remotefx">"RemoteFX و"</string>
+    <string name="settings_perf_wallpaper">"خلفية سطح المكتب"</string>
+    <string name="settings_perf_font_smoothing">"تجانس"</string>
+    <string name="settings_perf_desktop_composition">"تكوين سطح المكتب"</string>
+    <string name="settings_perf_full_window_drag">"محتويات نافذة أثناء السحب"</string>
+    <string name="settings_perf_menu_animation">"الرسوم المتحركة القائمة"</string>
+    <string name="settings_perf_theming">"الأنماط المرئية"</string>
+    <string name="settings_advanced">"الخبرات المتقدمة"</string>
+    <string name="settings_cat_advanced">"إعدادات متقدمة"</string>
+    <string name="settings_enable_3g_settings">"إعدادات الجيل الثالث 3G"</string>
+    <string name="settings_screen_3g">"شاشة الجيل الثالث 3G"</string>
+    <string name="settings_performance_3g">"الأداء الجيل الثالث 3G"</string>
+    <string name="settings_cat_gateway">"المعبر gateway"</string>
+    <string name="settings_enable_gateway_settings">"تمكين بوابة"</string>
+    <string name="settings_gateway_settings">"إعدادات العبارة"</string>
+    <string name="settings_redirect_sdcard">"حصة SD بطاقة"</string>
+    <string name="settings_redirect_ClipBoard">"حصة الحافظة"</string>
+    <string name="settings_redirect_Audio">"الصوت"</string>
+    <string name="settings_redirect_Audio_Android">"تلعب على الروبوت"</string>
+    <string name="settings_redirect_Audio_Computer">"اللعب على الكمبيوتر"</string>
+    <string name="settings_security">"أمن"</string>
+    <string-array name="security_array">
+        <item>"أوتوماتيكي"</item>
+        <item>"RDP"</item>
+        <item>"طبقة النقل الآمنة"</item>
+        <item>"جيش التحرير الوطني"</item>
+    </string-array>
+
+    <string name="settings_remote_program">"برنامج عن بعد"</string>
+    <string name="settings_work_dir">"دليل العمل"</string>
+    <string name="settings_console_mode">"وضع وحدة التحكم"</string>
+    <!-- App settings strings -->
+    <string name="settings_password_present">"*******"</string>
+    <string name="settings_password_empty">"لم يتم التعيين"</string>
+    <string name="settings_cat_ui">"واجهة المستخدم"</string>
+    <string name="settings_ui_hide_status_bar">"إخفاء شريط الحالة"</string>
+    <string name="settings_ui_hide_zoom_controls">"إخفاء تحكم زووم"</string>
+    <string name="settings_ui_swap_mouse_buttons">"مبادلة أزرار الماوس"</string>
+    <string name="settings_ui_invert_scrolling">"عكس التمرير"</string>
+    <string name="settings_ui_auto_scroll_touchpointer">"لمسة مؤشر التمرير السيارات"</string>
+    <string name="settings_ui_ask_on_exit">"مشاهدة الحوار على إنهاء"</string>
+    <string name="settings_cat_power">"توفير الطاقة"</string>
+    <string name="settings_power_disconnect_timeout">"إغلاق اتصالات الخمول"</string>
+    <string name="settings_cat_security">"أمن"</string>
+    <string name="settings_security_accept_certificates">"قبول جميع الشهادات"</string>
+    <string name="settings_security_clear_certificate_cache">"مسح ذاكرة التخزين المؤقت الشهادة"</string>
+    <string name="settings_description_after_minutes">"بعد %1$d دقائق"</string>
+    <string name="settings_description_disabled">"تم المنع من العمل"</string>
+    <!-- Activity titles -->
+    <string name="title_bookmark_settings">"إعدادات الاتصال"</string>
+    <string name="title_application_settings">"الإعدادات"</string>
+    <string name="title_home">"ويندوز سطح المكتب البعيد"</string>
+    <string name="title_create_shortcut">"اتصالات RDP"</string>
+    <string name="title_help">"مفيد"</string>
+    <string name="title_about">"حول"</string>
+    <!-- Error message strings -->
+    <string name="error_bookmark_incomplete_title">"إلغاء بدون حفظ؟"</string>
+    <string name="error_bookmark_incomplete">"اضغط على \"إلغاء\" لإحباط! \ n لذا اضغط على \"متابعة\" لتحديد الحقول المطلوبة!"</string>
+    <string name="error_connection_failure">"فشل لتأسيس اتصال إلى الملقم!"</string>
+    <!-- Info message strings -->
+    <string name="info_capabilities_changed">"تغيرت إعدادات الشاشة بسبب عدم اعتماد خادم الإعدادات التي حددتها!"</string>
+    <string name="info_reset_success">"حذف ذاكرة التخزين المؤقت الشهادة!"</string>
+    <string name="info_reset_failed">"فشل في حذف ذاكرة التخزين المؤقت الشهادة!"</string>
+    <!-- Dialog strings -->
+    <string name="dlg_title_verify_certificate">"التحقق من الشهادة"</string>
+    <string name="dlg_msg_verify_certificate">"لا يمكن التحقق من هوية الكمبيوتر البعيد. هل تريد الاتصال على أي حال؟"</string>
+    <string name="dlg_title_credentials">"يرجى إدخال بيانات الاعتماد الخاصة بك"</string>
+    <string name="dlg_title_create_shortcut">"إنشاء اختصار"</string>
+    <string name="dlg_msg_create_shortcut">"اسم الاختصار:"</string>
+    <string name="dlg_msg_connecting">"جارٍ الاتصال"</string>
+    <string name="dlg_msg_logging_in">"تسجيل في ..."</string>
+    <string name="dlg_title_about">"حول Rdp Remote Desktop"</string>
+    <string name="dlg_msg_about">"الإصدار: %1$s"</string>
+    <string name="dlg_title_create_bookmark_after_qc">"حفظ إعدادات الاتصال؟"</string>
+    <string name="dlg_msg_create_bookmark_after_qc">"لم يتم حفظ إعدادات الاتصال الخاصة بك! هل تريد حفظها؟"</string>
+    <string name="dlg_title_save_bookmark">"حفظ اتصال؟"</string>
+    <string name="dlg_save_bookmark">"هل تريد حفظ أية تغييرات أجريتها على إعدادات الاتصال؟"</string>
+    <string name="dlg_dont_show_again">"لا تسأل مرة أخرى"</string>
+    <string name="dlg_title_exit">"طلب المخرج؟"</string>
+    <string name="dlg_msg_exit">"هل أنت متأكد أنك تريد الخروج من التطبيق؟"</string>
+    <string name="dlg_title_clear_cert_cache">"حذف الشهادات؟"</string>
+    <string name="dlg_msg_clear_cert_cache">"هل أنت متأكد أنك تريد حذف كل ما تبذلونه من شهادات مؤقتا؟"</string>
+    <string name="Trial_expires_in">"تنتهي المحاكمة في"</string>
+    <string name="days">"أيام"</string>
+    <string name="hours">"ساعات"</string>
+    <string name="minutes">"دقائق"</string>
+    <string name="seconds">"ثانية"</string>
+    <string name="Trial_expired">"انتهت محاكمة"</string>
+    <string name="You_have_already_purchased_license">"كنت قد اشتريت بالفعل ترخيص"</string>
+    <string name="Your_iPlay_Audio_license_has_been_retrived">"وقد تم استرجاع رخصة Rdp Remote Desktop الخاص بك. يرجى إعادة تشغيل Rdp Remote Desktop."</string>
+    <string name="Error_purchasing_license">"رخصة الشرائية خطأ"</string>
+    <string name="Please_try_again">"الرجاء إعادة المحاولة."</string>
+    <string name="Congratulations">"مبروك!
+"</string>
+    <string name="License_purchased_sucessfully">"شراء ترخيص بنجاح. يرجى إعادة Rdp Remote Desktop."</string>
+    <string name="iPlay_Audio_Trial_Expired">"انتهى Rdp Remote Desktop الابتدائية!"</string>
+    <string name="Please_purchase_iPlay_Audio_license_from_market">"الرجاء شراء ترخيص Rdp Remote Desktop من السوق."</string>
+    <string name="ok">"موافق"</string>
+    <string name="Get_from_Market">"الحصول عليها من السوق"</string>
+    <string name="download_iPlay_Audio_License_from_Android_Market">"يرجى تحميل الترخيص Rdp Remote Desktop من Android Market"</string>
+    <string name="General">"عام"</string>
+    <string name="pref_trialExp">"انتهت محاكمة. شراء النسخة الكاملة من السوق"</string>
+    <string name="Download_Full_Version">"تحميل نسخة كاملة"</string>
+</resources>

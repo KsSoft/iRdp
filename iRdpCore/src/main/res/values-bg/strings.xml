@@ -1,0 +1,182 @@
+<resources>
+    <string name="vnc">"VNC"</string>
+    <string name="rdp">"RDP"</string>
+    <!-- Button labels -->
+    <string name="yes">"Да"</string>
+    <string name="no">"Не"</string>
+    <string name="cancel">"Откажи"</string>
+    <string name="cont">"Продължи"</string>
+    <string name="login">"Име."</string>
+    <string name="logout">"Изход"</string>
+    <!-- Home menu items -->
+    <string name="menu_exit">"Изход"</string>
+    <string name="menu_about">"about"</string>
+    <string name="menu_help">"Помощ"</string>
+    <string name="menu_new_bookmark">"New Connection"</string>
+    <string name="menu_app_settings">"Настройки"</string>
+    <!-- Bookmark menu items -->
+    <string name="menu_title_bookmark">"Връзка"</string>
+    <string name="menu_connect">"Свързване! "</string>
+    <string name="menu_edit">"Редактиране"</string>
+    <string name="menu_delete">"Изтрий"</string>
+    <!-- Session menu items -->
+    <string name="menu_sys_keyboard">"Въвеждане чрез клавиатура "</string>
+    <string name="menu_ext_keyboard">"Функционални бутони"</string>
+    <string name="menu_touch_pointer">"Touch Pointer"</string>
+    <string name="menu_home">"Начало"</string>
+    <string name="menu_disconnect">"Разкачане"</string>
+    <!-- List section headers -->
+    <string name="section_bookmarks">"Ръчна Connections"</string>
+    <string name="section_active_sessions">"Активни Sessions"</string>
+    <!-- Search strings -->
+    <string name="search_hint">"Свързване с компютър"</string>
+    <!-- List placeholder labels -->
+    <string name="list_placeholder_login">"Име."</string>
+    <string name="list_placeholder_no_servers">"Не Servers"</string>
+    <string name="list_placeholder_connecting">"Свързване ..."</string>
+    <string name="list_placeholder_disconnecting">"Разкачане"</string>
+    <string name="list_placeholder_connection_error">"Връзката е прекъсната"</string>
+    <string name="list_placeholder_wrong_password">"Грешна парола"</string>
+    <string name="list_placeholder_invalid_username">"Невалидно потребителско име"</string>
+    <string name="list_placeholder_add_bookmark">"Добави Connection"</string>
+    <!-- Bookmark settings strings -->
+    <string name="settings_cat_host">"Хостване"</string>
+    <string name="settings_label">"Етикет"</string>
+    <string name="settings_hostname">"Хостване"</string>
+    <string name="settings_port">"Port="</string>
+    <string name="settings_cat_credentials">"Акредитивни писма"</string>
+    <string name="settings_credentials">"Акредитивни писма"</string>
+    <string name="settings_username">"Потребителско име"</string>
+    <string name="settings_password">"Парола"</string>
+    <string name="settings_domain">"Домейн"</string>
+    <string name="settings_cat_settings">"Настройки"</string>
+    <string name="settings_screen">"Сито "</string>
+    <string name="settings_cat_screen">"Настройки на екрана"</string>
+    <string name="settings_colors">"Цветове"</string>
+    <string-array name="colors_array">
+        <item>"High Color (16 бита)"</item>
+        <item>"True Color (24 бита)"</item>
+        <item>"Най-високо качество (32 Bit)"</item>
+    </string-array>
+    <string name="settings_resolution">"Резолюция "</string>
+    <string name="resolution_automatic">"Автоматичен"</string>
+    <string name="resolution_custom">"По избор"</string>
+    <string-array name="resolutions_array">
+        <item>"Автоматичен"</item>
+        <item>"По избор"</item>
+        <item>"640x480"</item>
+        <item>"720x480"</item>
+        <item>"800x600"</item>
+        <item>"1024x768"</item>
+        <item>"1280x1024"</item>
+        <item>"1440x900"</item>
+        <item>"1920x1080"</item>
+        <item>"1920x1200"</item>
+    </string-array>
+    <string name="settings_width">"Ширина "</string>
+    <string name="settings_height">"Височина  "</string>
+    <string name="settings_performance">"Характеристики  "</string>
+    <string name="settings_cat_performance">"Изпълнение Settings"</string>
+    <string name="settings_perf_remotefx">"RemoteFX"</string>
+    <string name="settings_perf_wallpaper">"Desktop Background"</string>
+    <string name="settings_perf_font_smoothing">"Font Smoothing"</string>
+    <string name="settings_perf_desktop_composition">"Desktop Състав"</string>
+    <string name="settings_perf_full_window_drag">"Window съдържанието при плъзгане"</string>
+    <string name="settings_perf_menu_animation">"Menu Animation"</string>
+    <string name="settings_perf_theming">"Визуалните стилове"</string>
+    <string name="settings_advanced">"Придвижване "</string>
+    <string name="settings_cat_advanced">"Разширени настройки:"</string>
+    <string name="settings_enable_3g_settings">"3G Settings"</string>
+    <string name="settings_screen_3g">"3G Screen"</string>
+    <string name="settings_performance_3g">"3G Работа"</string>
+    <string name="settings_cat_gateway">"Вход"</string>
+    <string name="settings_enable_gateway_settings">"Разрешаване на Gateway"</string>
+    <string name="settings_gateway_settings">"Портал Settings"</string>
+    <string name="settings_redirect_sdcard">"Сподели SDCard"</string>
+    <string name="settings_redirect_ClipBoard">"Сподели клипборда"</string>
+    <string name="settings_redirect_Audio">"аудиоклипове"</string>
+    <string name="settings_redirect_Audio_Android">"Играйте на Android"</string>
+    <string name="settings_redirect_Audio_Computer">"Играйте на Computer"</string>
+    <string name="settings_security">"Сигурност."</string>
+    <string-array name="security_array">
+        <item>"Автоматичен"</item>
+        <item>"ПРСР"</item>
+        <item>"TLS"</item>
+        <item>"NLA"</item>
+    </string-array>
+
+    <string name="settings_remote_program">"Remote Program"</string>
+    <string name="settings_work_dir">"Работа Directory"</string>
+    <string name="settings_console_mode">"Console Mode"</string>
+    <!-- App settings strings -->
+    <string name="settings_password_present">"*******"</string>
+    <string name="settings_password_empty">"Незададено"</string>
+    <string name="settings_cat_ui">"User Interface"</string>
+    <string name="settings_ui_hide_status_bar">"Скриване на лентата за състоянието"</string>
+    <string name="settings_ui_hide_zoom_controls">"Скрий Zoom Контроли"</string>
+    <string name="settings_ui_swap_mouse_buttons">"Разменени бутоните на мишката"</string>
+    <string name="settings_ui_invert_scrolling">"Обърнете Scrolling"</string>
+    <string name="settings_ui_auto_scroll_touchpointer">"Touch Auto Scroll Pointer"</string>
+    <string name="settings_ui_ask_on_exit">"Покажи Dialog на Exit"</string>
+    <string name="settings_cat_power">"Пестене на енергия"</string>
+    <string name="settings_power_disconnect_timeout">"Затворете чакащи връзки"</string>
+    <string name="settings_cat_security">"Сигурност."</string>
+    <string name="settings_security_accept_certificates">"Приемат се всички сертификати"</string>
+    <string name="settings_security_clear_certificate_cache">"Clear Cache Сертификат"</string>
+    <string name="settings_description_after_minutes">"След %1$d Минути"</string>
+    <string name="settings_description_disabled">"Изключена"</string>
+    <!-- Activity titles -->
+    <string name="title_bookmark_settings">"Настройки на връзката"</string>
+    <string name="title_application_settings">"Настройки"</string>
+    <string name="title_home">"Remote Desktop"</string>
+    <string name="title_create_shortcut">"ПРСР Connections"</string>
+    <string name="title_help">"Помощ"</string>
+    <string name="title_about">"about"</string>
+    <!-- Error message strings -->
+    <string name="error_bookmark_incomplete_title">"Отказ без записване?"</string>
+    <string name="error_bookmark_incomplete">"Натиснете \"Cancel\" да се откажем! \ NНатиснете '\"Напред\", за да определят задължителните полета!"</string>
+    <string name="error_connection_failure">"Не може да се установи връзка със сървъра!"</string>
+    <!-- Info message strings -->
+    <string name="info_capabilities_changed">"Настройките на екрана са се променили, защото сървърът не поддържа настройките сте посочили!"</string>
+    <string name="info_reset_success">"Изтрити сертификата кеш!"</string>
+    <string name="info_reset_failed">"Неуспешно изтриване на кеша сертификат!"</string>
+    <!-- Dialog strings -->
+    <string name="dlg_title_verify_certificate">"Проверете Сертификат"</string>
+    <string name="dlg_msg_verify_certificate">"Идентичността на отдалечения компютър не може да бъде проверена. Искате ли да се свърже така или иначе?"</string>
+    <string name="dlg_title_credentials">"Моля, въведете идентификационните си данни"</string>
+    <string name="dlg_title_create_shortcut">"Създаване на пряк път"</string>
+    <string name="dlg_msg_create_shortcut">"Shortcut име:"</string>
+    <string name="dlg_msg_connecting">"Свързване ..."</string>
+    <string name="dlg_msg_logging_in">"Влизане в системата ..."</string>
+    <string name="dlg_title_about">"За Rdp Remote Desktop"</string>
+    <string name="dlg_msg_about">"Версия: %1$s"</string>
+    <string name="dlg_title_create_bookmark_after_qc">"Запазване на настройките за връзка?"</string>
+    <string name="dlg_msg_create_bookmark_after_qc">"Вашите настройки за свързване не са запазена! Искате ли да ги спаси?"</string>
+    <string name="dlg_title_save_bookmark">"Запази Connection?"</string>
+    <string name="dlg_save_bookmark">"Искате ли да запазите промените, които сте направили настройките за връзка?"</string>
+    <string name="dlg_dont_show_again">"Не питай отново"</string>
+    <string name="dlg_title_exit">"Излез кандидатстване?"</string>
+    <string name="dlg_msg_exit">"Сигурен ли сте, че искате да излезете от програмата?"</string>
+    <string name="dlg_title_clear_cert_cache">"Изтриване на сертификати?"</string>
+    <string name="dlg_msg_clear_cert_cache">"Сигурни ли сте, че искате да изтриете всички кеширани сертификати?"</string>
+    <string name="Trial_expires_in">"Trial изтича през"</string>
+    <string name="days">"дни"</string>
+    <string name="hours">"часа"</string>
+    <string name="minutes">"минути"</string>
+    <string name="seconds">"секунди. "</string>
+    <string name="Trial_expired">"Trial изтекъл"</string>
+    <string name="You_have_already_purchased_license">"Вие вече сте закупили лиценз"</string>
+    <string name="Your_iPlay_Audio_license_has_been_retrived">"Вашият Rdp Remote Desktop лиценз е бил възстановен. Моля, рестартирайте Rdp Remote Desktop."</string>
+    <string name="Error_purchasing_license">"Лиценз Error покупки"</string>
+    <string name="Please_try_again">"Моля, опитайте отново."</string>
+    <string name="Congratulations">"Поздравления!"</string>
+    <string name="License_purchased_sucessfully">"Лиценз закупен успешно. Моля, рестартирайте Rdp Remote Desktop."</string>
+    <string name="iPlay_Audio_Trial_Expired">"Rdp Remote Desktop Trial изтекла валидност!"</string>
+    <string name="Please_purchase_iPlay_Audio_license_from_market">"Моля закупите лиценз Rdp Remote Desktop от пазара."</string>
+    <string name="ok">"Д"</string>
+    <string name="Get_from_Market">"Вземи от Market"</string>
+    <string name="download_iPlay_Audio_License_from_Android_Market">"Моля, изтеглете License Rdp Remote Desktop от Android Market"</string>
+    <string name="General">"Общи"</string>
+    <string name="pref_trialExp">"Trial изтекъл. Покупка пълната версия от пазара"</string>
+    <string name="Download_Full_Version">"Изтегляне на пълната версия"</string>
+</resources>
